@@ -16,13 +16,13 @@
 
 ## Live Demo
 
-[Live Demo Link](##)
+[Live Demo Link](https://mathmagicians12.herokuapp.com/)
 
 ## Getting Started
 
 **Setup**
 
-git clone https://github.com/Mwapsam/MathMagicians
+git clone https://github.com/Mwapsam/MathMagicians.git
 
 Execute the following commands on your terminal
 ```

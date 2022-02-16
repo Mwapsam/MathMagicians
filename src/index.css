@@ -22,7 +22,7 @@ body {
   overflow: hidden;
 }
 
-h1 {
+.title {
   padding: 3% 12%;
 }
 
@@ -103,19 +103,25 @@ button:active {
 }
 
 .nav-items {
-  list-style-type: none;
-  overflow: hidden;
   background-color: #858694;
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  gap: 600px;
+  align-items: baseline;
 }
 
-/* .nav-items {
-  padding-right: 50px;
-} */
+.nav-items h1 {
+  padding: 20px;
+  color: #fff;
+}
 
-.nav-items li a {
+.list-items {
+  list-style-type: none;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.list-items li a {
   display: block;
   color: white;
   text-align: center;
@@ -126,6 +132,12 @@ button:active {
 }
 
 .home-text {
+  padding: 0 12%;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.text {
   padding: 8% 12%;
   font-size: 18px;
   font-weight: 400;

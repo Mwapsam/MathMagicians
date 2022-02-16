@@ -3,7 +3,7 @@ import Footer from './Footer';
 
 const Home = () => (
   <div>
-    <h1>Welcome Math Magician</h1>
+    <h2 className="title">Welcome Math Magician</h2>
     <hr />
     <p className="home-text">
       We have created a fictional band website. Lorem ipsum dolor sit amet,

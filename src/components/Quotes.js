@@ -3,10 +3,9 @@ import Footer from './Footer';
 
 const Quotes = () => (
   <div>
-    <p className="home-text">
-      We have created a fictional band website. Lorem ipsum dolor sit amet,
-      consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-      dolore magna aliqua.
+    <p className="text">
+      Mathematics is not about numbers, equations, computations or algorithms:
+      it is about understanding
     </p>
     <Footer />
   </div>
